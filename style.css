@@ -1,0 +1,50 @@
+.back {
+  background: url(media/Stephbackground.png) center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+
+.spacercell {
+    height: 20px;
+}
+
+.biggerspacercell {
+    height: 100px;
+}
+
+
+
+.stylefiles07 {
+  background-image: url(media/sm.png);
+  height: 200px;
+}
+
+.bact {
+    background: url(media/bacteria.png) center / cover;
+    height: 200px;
+}
+
+.steph {
+    background: url(media/steph.png) center / cover;
+    height: 200px;
+}
+
+.pl {
+    background: url(media/personallogowhite.png) center /cover ;
+    height: 190px;
+}
+
+.sl {
+    background: url(media/stephwhite.png) center /cover;
+    height: 190px;
+}
+
+center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
