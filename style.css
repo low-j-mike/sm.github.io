@@ -43,8 +43,14 @@
     height: 190px;
 }
 
-center {
+.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+.stephcard {
+    background: url(media/stephcard.jpg) center / cover;
+    height: 200px;
 }
