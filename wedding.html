@@ -15,11 +15,11 @@
 
 
     <div class="demo-layout-transparent back mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs">
-      <header class="mdl-layout__header mdl-layout__header--transparent mdl-layout__header--waterfall mdl-color--black">
-        <div class="mdl-layout__header-row">
-          <!-- Title -->
-          <span class="mdl-layout-title">SM</span>
-          <!-- Add spacer, to align navigation to the right -->
+      <header class="mdl-layout__header mdl-color--black">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">SM</span>
+      <!-- Add spacer, to align navigation to the right -->
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation -->
           <nav class="mdl-navigation mdl-layout--large-screen-only">
@@ -30,10 +30,13 @@
             <a class="mdl-navigation__link" href="/hc.html">Home &amp; Cooking</a>
             <a class="mdl-navigation__link" href="/index.html">Home</a>
           </nav>
-        </div>
-          <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--black">
     </div>
-      </header>
+    <!-- Tabs -->
+    <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--black">
+      <a href="#fixed-tab-1" class="mdl-layout__tab is-active">Getting Married</a>
+      <a href="#fixed-tab-2" class="mdl-layout__tab">Services by SM</a>
+    </div>
+  </header>
       <div class="mdl-layout__drawer">
         <span class="mdl-layout-title">SM</span>
         <nav class="mdl-navigation">
@@ -48,22 +51,30 @@
       <!-- Page Content -->
       <main class="mdl-layout__content">
           
-          <div class="mdl-grid">
+          
             
-        <div class="mdl-cell mdl-cell--12-col spacercell">
+       
+       
+        
+           <section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+      <div class="page-content"><!-- Your content goes here -->
+               
+        <div class="mdl-grid">
+            
+            <div class="mdl-cell mdl-cell--12-col spacercell">
             </div>   
        
           <div class="mdl-cell mdl-cell--4-col mdl-cell--2-col-tablet mdl-cell--hide-phone"></div>
               
             <div class="mdl-cell mdl-cell--4-col">
-                <div class="mdl-card mdl-color--white mdl-shadow-16dp">
-                <div class="mdl-card__media stephcard">
+            <div class="mdl-card  mdl-color--white mdl-shadow-16dp">
+                <div class="mdl-card__media wedding">
   </div>
             <div class="mdl-card__title">
-  Stephanie Menard
+  Getting Married
   </div>
   <div class="mdl-card__supporting-text">
-  Inspirational, emotional, tasteful, topical and insightful comment or quote
+  Tips, Advice and ideas for brides
   </div>
   <div class="mdl-card__actions">
   <!-- Multiline Tooltip -->
@@ -76,11 +87,49 @@ Share your content<br>via social media
               
             </div>
             <div class="mdl-cell mdl-cell--4-col mdl-cell--2-col-tablet mdl-cell--hide-phone"></div>
-          
-        
-          
+            
           </div>
-          
+               
+               
+               </div>
+    </section>
+    <section class="mdl-layout__tab-panel" id="fixed-tab-2">
+      <div class="page-content"><!-- Your content goes here -->
+        
+        <div class="mdl-grid">
+            
+            <div class="mdl-cell mdl-cell--12-col spacercell">
+            </div>   
+       
+          <div class="mdl-cell mdl-cell--4-col mdl-cell--2-col-tablet mdl-cell--hide-phone"></div>
+              
+            <div class="mdl-cell mdl-cell--4-col">
+            <div class="mdl-card mdl-color--white mdl-shadow-16dp">
+                <div class="mdl-card__media wedding">
+  </div>
+            <div class="mdl-card__title">
+  Services By SM
+  </div>
+  <div class="mdl-card__supporting-text">
+  Wedding Services offered by SM
+  </div>
+  <div class="mdl-card__actions">
+  <!-- Multiline Tooltip -->
+<div id="tt4" class="icon material-icons">share</div>
+<div class="mdl-tooltip" for="tt4">
+Share your content<br>via social media
+</div>
+  </div>  
+    </div>          
+            </div>
+            <div class="mdl-cell mdl-cell--4-col mdl-cell--2-col-tablet mdl-cell--hide-phone"></div>
+            
+          </div>
+        
+        </div>
+    </section> 
+       
+                 
           
       </main>
         

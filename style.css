@@ -54,3 +54,28 @@
     background: url(media/stephcard.jpg) center / cover;
     height: 200px;
 }
+
+.fashion {
+    background: url(media/fashion.jpg) center / cover;
+    height: 200px;
+}
+
+.beauty {
+    background: url(media/beauty.jpg) center / cover;
+    height: 200px;
+}
+
+.kitchen {
+    background: url(media/kitchen.jpg) center / cover;
+    height: 200px;
+}
+
+.silk {
+    background: url(media/silk.jpg) center / cover;
+    height: 200px;
+}
+
+.wedding {
+    background: url(media/wedflow.jpg) center / cover;
+    height: 200px;
+}
